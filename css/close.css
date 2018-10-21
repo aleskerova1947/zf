@@ -1,0 +1,106 @@
+.containerMenuClose {
+  background: url(../img/burgerBG.png);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 50%;
+  margin-top: -1000px;
+  position: absolute;
+  top: 0;
+  width: 50%;
+  z-index: 9999;
+  height: 750px;
+  transition: all linear .4s;
+  overflow: hidden;
+}
+
+.menuClose {
+  padding: 7% 15% 10% 20%;
+}
+
+.cross {
+  cursor: pointer;
+  float: right;
+  margin-top: 50px;
+  transition: linear .2s;
+}
+
+.menuClose span {
+  font-family: 'Calibri bold';
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-right: 3px;
+}
+
+.menuClose img.crossclosed {
+  width: .7vw;
+  vertical-align: middle;
+}
+
+.containerMenuClose nav.navmenu {
+  margin-top: 20%;
+}
+
+.containerMenuClose li,
+li .colortext {
+  color: #fff;
+  font-family: 'Oswald light';
+  font-weight: 100;
+  font-size: 1.7vw;
+  text-transform: uppercase;
+  list-style: none;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  transition: linear .1s;
+}
+
+li img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  transform: rotate(-90deg);
+}
+
+li .colortext {
+  font-family: 'Oswald';
+  color: #FFA500;
+}
+
+.lang {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.branch {
+  margin-left: 40px;
+}
+
+.containerMenuClose li:hover {
+  color: #FFA500;
+  cursor: pointer;
+  transition: linear .1s;
+}
+
+.language,
+.language a {
+  font-family: 'Oswald light';
+  font-size: 1.7vw;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.language {
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+}
+
+.language a:active,
+.language a:focus {
+  font-family: 'Oswald';
+}

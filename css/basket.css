@@ -1,0 +1,241 @@
+.basketCloseBG {
+  background: rgba(0, 0, 0, .6);
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 9998;
+  height: 750px;
+  display: none;
+  transition: linear .8s;
+}
+
+.basketClose {
+  background-color: #fff;
+  margin: 8% 15%;
+  width: 70%;
+  height: 70%;
+  padding: 30px 30px 50px 50px;
+  z-index: 9999;
+}
+
+.goodTop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.crossSecond {
+  display: flex;
+  justify-content: end;
+  height: 3.5vw;
+  cursor: pointer;
+  transition: linear .2s;
+}
+
+.crossSecond span {
+  font-family: 'Calibri bold';
+  color: rgba(0, 0, 0, .7);
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 1px;
+  margin-right: 5px;
+}
+
+.crossSecond img {
+  width: 10px;
+  height: 10px;
+  vertical-align: middle;
+}
+
+.goods {
+  display: flex;
+  justify-content: space-between;
+}
+
+.goodLeft {
+  display: block;
+  width: 55%;
+  height: 380px;
+  border-right: solid 2px rgba(0, 0, 0, .2);
+  padding-right: 20px;
+  overflow: scroll;
+}
+
+.basketClose h1 {
+  font-family: 'Oswald';
+  font-size: 3.5vw;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, .7);
+  text-transform: uppercase;
+}
+
+.good {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 5%;
+}
+
+.good.second {
+  padding: 20px 0 20px 0;
+  border-bottom: solid 1px rgba(0, 0, 0, .2);
+  border-top: solid 1px rgba(0, 0, 0, .2);
+}
+
+.good div {
+  line-height: 100px;
+}
+
+.good div img {
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+.raz,
+#count {
+  all: unset;
+  -moz-appearance: textfield;
+  text-align: center;
+}
+
+.raz::-webkit-inner-spin-button,
+#count::-webkit-inner-spin-button {
+  display: none;
+}
+
+.good span {
+  font-family: 'Calibri';
+  font-size: 1vw;
+  color: rgba(0, 0, 0, .7);
+}
+
+.good button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  padding: 0 0 5px 0;
+  border: none;
+  background-color: rgba(0, 0, 0, .1);
+  color: rgba(0, 0, 0, .7);
+  font-weight: bold;
+  outline: none;
+}
+
+.good input {
+  font-family: 'Calibri bold';
+  font-size: .9vw;
+  color: rgba(0, 0, 0, .7);
+}
+
+#count {
+  font-family: 'Oswald';
+  font-size: 1.2vw;
+  color: rgba(0, 0, 0, .7);
+}
+
+.good span.ua {
+  font-family: 'Oswald';
+  font-size: 1vw;
+  color: rgba(0, 0, 0, .7);
+}
+
+.delete {
+  width: 15px;
+  height: 15px;
+}
+
+.goodRight {
+  width: 45%;
+  height: 100%;
+  padding-left: 20px;
+}
+
+.goodRight h2 {
+  font-family: 'Oswald';
+  font-size: 1.8vw;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, .7);
+  text-transform: uppercase;
+}
+
+.goodRight form{
+  display: block;
+  width: 100%;
+}
+
+.goodRight input {
+  border: none;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 50px;
+  outline: none;
+  padding: 10px 20px; 
+  font-family: 'Calibri';
+  color: rgba(0, 0, 0, .7);
+  font-size: .8vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+.goodRight input:hover {
+  border: 1px solid rgba(210, 105, 30, .8);
+}
+
+.goodRight input::placeholder,
+.goodRight .btnSubmit {
+  font-family: 'Calibri light';
+  color: rgba(0, 0, 0, .2);
+  font-size: .7vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.summ {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  vertical-align:bottom;
+}
+
+.summ p {
+  font-family: 'Calibri light';
+  font-size: 1vw;
+  color: rgba(0, 0, 0, .7);
+}
+
+.spanFirst,
+.spanSecond {
+  font-family: 'Oswald';
+  font-size: 1.2vw;
+}
+
+.summ button {
+  width: 45%;
+  vertical-align: middle;
+}
+
+.goodRight .btnSubmit {
+  font-family: 'Calibri bold';
+  background-color: rgba(210, 105, 30, .8);
+  border-color: rgba(210, 105, 30, .8);
+  border-radius: 20px;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(210, 105, 30, 0.5);
+  transition: .3s;
+  outline: none;
+}
+
+.goodRight .btnSubmit:hover,
+.btnReturn:hover {
+  background-color: #fff;
+  outline: none;
+  border-color: #fff;
+  color: rgba(210, 105, 30, .8);
+  transition: .3s;
+}

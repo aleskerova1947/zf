@@ -1,0 +1,155 @@
+.rightBlock {
+  width: 50%;
+  overflow: hidden;
+}
+
+#pillow {
+  width: 90%;
+  margin-top: 30%;
+  margin-left: -100px;
+}
+
+.pillow {
+  -webkit-transition: all 2s linear;
+  transition: all 2s cubic-bezier(.190, 1.000, .220, 1.000) 1.2s;
+    -webkit-transform: translateY(300%);
+        -ms-transform: translateY(300%);
+            transform: translateY(300%);
+}
+
+.animate .pillow {
+  -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
+
+    -webkit-transform: scale(1.5,1.5);
+        -ms-transform: scale(1.5,1.5);
+            transform: scale(1.5,1.5);
+
+    opacity: 1;
+
+    filter: alpha(opacity=100);
+}
+
+.slideControl {
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  right: 6%;
+  left: initial;
+  left: auto;
+}
+
+.slideControl::before {
+  width: 1px;
+  height: 30px;
+  right: 7px;
+  bottom: initial;
+  bottom: auto;
+  top: 71px;
+}
+
+.slideControl::after {
+  width: 1px;
+  height: 30px;
+  right: 7px;
+  bottom: initial;
+  bottom: auto;
+  top: 134px;
+  left: initial;
+  left: auto;
+}
+
+.slideControl span {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin: 50px 0;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.follow {
+  position: absolute;
+  bottom: 100px;
+  right: 4%;
+  padding: 2%;
+  z-index: 8;
+  cursor: pointer;
+}
+
+.follow.enter-y {
+  width: 10px;
+}
+
+.follow.enter-y .frame-1 {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  transition: margin-top linear .3s;
+  margin-top: -160px;
+  position: absolute;
+}
+
+.follow.enter-y:hover .frame-1 {
+  visibility: hidden;
+  opacity: 0;
+  transition-delay: 0s;
+  margin-top: -150px;
+}
+
+.follow.enter-y .frame-2 {
+  visibility: hidden;
+  opacity: 0;
+  transition: margin-top linear .3s;
+  margin-top: -150px;
+  position: absolute;
+}
+
+.follow.enter-y:hover .frame-2 {
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0s;
+  margin-top: -140px;
+}
+
+.frame-2 i {
+  color: #fff;
+  margin-bottom: 8px;
+  transition: linear .3s;
+}
+
+.frame-2 i:hover {
+  color: #696969;
+  transition: linear .3s;
+}
+
+.lazyloading {
+  width: 10px;
+  margin-bottom: 10px;
+}
+
+.call {
+  position: absolute;
+  top: 90%;
+  left: 95%;
+}
+
+.call button {
+  background-color: rgba(0, 0, 0, .6);
+  background-image: url(../img/callWhite.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  outline: none;
+}
+
+.call button:hover {
+  background-image: url(../img/callBlack.png);
+}

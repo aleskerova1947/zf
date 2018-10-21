@@ -1,0 +1,155 @@
+.thirdRight {
+  width: 58%;
+  height: 100%;
+  background-color: #F0F8FF;
+  position: absolute;
+  top: 218px;
+  left: 40%;
+}
+
+.thirdRight h2 {
+  text-align: center;
+  font-family: 'Calibri bold';
+  font-size: 2.3vw;
+  color: rgba(0, 0, 0, .7);
+}
+
+.thirdRightLeftRight {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.thirdRightLeft {
+  width: 49%;
+  display: block;
+  text-align: center;
+}
+
+.thirdRightLeft img {
+  width: 80%;
+}
+
+.thirdRightLeft div {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  margin: 20px 40%;
+}
+
+.thirdRightLeft div img {
+  width: 12px;
+  height: 12px;
+}
+
+.leftArrow {
+  transform: rotate(90deg);
+}
+
+.rightArrow {
+  transform: rotate(-90deg);
+}
+
+.thirdRightRight {
+  width: 49%;
+  margin-right: 100px;
+}
+
+.string {
+  font-family: 'Calibri bold';
+  font-size: 1vw;
+  color: #FFA500;
+  letter-spacing: 1px;
+}
+
+.string span {
+  color: rgba(0, 0, 0, .7);
+}
+
+.description {
+  font-family: 'Calibri light';
+  font-size: 1vw;
+  color: rgba(0, 0, 0, .7);
+}
+
+.thirdBottom {
+  width: 100%;
+  margin-top: 50px;
+  margin-left: 40%;
+}
+
+.cost {
+  font-family: 'Oswald';
+  font-size: 1.2vw;
+  color: rgba(0, 0, 0, .7);
+  margin-bottom: 30px;
+  text-align: start;
+}
+
+.quantity {
+  margin-bottom: 20px;
+}
+
+.quantity input {
+  font-family: 'Calibri bold';
+  font-size: .9vw;
+  color: rgba(0, 0, 0, .7);
+}
+
+.quantity button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  padding: 0 0 5px 0;
+  border: none;
+  background-color: #fff;
+  color: rgba(0, 0, 0, .7);
+  font-weight: bold;
+  outline: none;
+}
+
+#toBasket button {
+  font-family: 'Calibri bold';
+  color: rgba(0, 0, 0, .2);
+  font-size: .7vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: rgba(30, 144, 255, .8);
+  border-color: rgba(30, 144, 255, .8);
+  border-radius: 20px;
+  color: #fff;
+  padding: 10px 30px;
+  transition: .3s;
+  outline: none;
+}
+
+#toBasket button:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  transition: .3s;
+}
+
+#thirdRight1,
+#thirdRight3,
+#thirdRight4,
+#thirdRight5,
+#thirdRight6,
+#thirdRight7,
+#thirdRight8,
+#thirdRight9,
+#thirdRight10 {
+  visibility: hidden;
+}
+
+#vitamins1,
+#vitamins2,
+#vitamins3,
+#vitamins4,
+#vitamins5,
+#vitamins6,
+#vitamins7,
+#vitamins8,
+#vitamins9,
+#vitamins10 {
+  cursor: pointer;
+}

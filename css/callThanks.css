@@ -1,0 +1,119 @@
+.callThanksBG {
+  background: rgba(0, 0, 0, .6);
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 9998;
+  height: 750px;
+  display: none;
+  transition: linear .8s;
+}
+
+.callThanks {
+  background-color: #fff;
+  margin: 10% 25%;
+  width: 50%;
+  height: 50%;
+  z-index: 9999;
+  display: block;
+}
+
+.callClose {
+  cursor: pointer;
+  transition: linear .2s;
+  display: flex;
+  width: 100%;
+  height: 10px;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.callClose span {
+  font-family: 'Calibri bold';
+  font-size: 10px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, .7);
+  letter-spacing: 1px;
+  margin-right: 3px;
+}
+
+.callClose img {
+  width: .7vw;
+  vertical-align: middle;
+  margin-right: 40px;
+}
+
+.callTitle {
+  font-family: 'Oswald';
+  font-size: 1.8vw;
+  color: rgba(0, 0, 0, .7);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+.callTitle h1 {
+  width: 100%;
+}
+
+.callForm {
+  display: block;
+  width: 50%;
+  margin: 0 25%;
+}
+
+.callForm input {
+  border: none;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 50px;
+  outline: none;
+  padding: 10px 20px; 
+  font-family: 'Calibri';
+  color: rgba(0, 0, 0, .7);
+  font-size: .8vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+.callForm input:hover {
+  border: 1px solid rgba(210, 105, 30, .8);
+}
+
+.callForm input::placeholder,
+.callForm button {
+  font-family: 'Calibri light';
+  color: rgba(0, 0, 0, .2);
+  font-size: .7vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.callForm button {
+  background-color: rgba(210, 105, 30, .8);
+  border-color: rgba(210, 105, 30, .8);
+  border-radius: 20px;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(210, 105, 30, 0.5);
+  transition: .3s;
+  outline: none;
+  width: 40%;
+  margin: 5% 30%;
+  text-transform: uppercase;
+}
+
+.callForm button:hover {
+  background-color: #fff;
+  outline: none;
+  border-color: #fff;
+  color: rgba(210, 105, 30, .8);
+  transition: .3s;
+}
